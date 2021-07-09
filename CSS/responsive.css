@@ -1,0 +1,60 @@
+@media (max-width: 992px) {
+    .home .overlay .sides, .about-sides {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .home .overlay .sides .left-side {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .home .overlay .sides .left-side {
+        margin-bottom: 10px;
+    }
+    .home .overlay .sides .right-side {
+        margin-bottom: 20px
+    }
+    .home .overlay nav .links {
+        display: none;
+    }
+    .home .overlay nav {
+        margin-bottom: 80px;
+    }
+    .home .overlay .mobile-nav {
+        display: inline-block;
+    }
+    .home .overlay .projects-container .thumbnails img{
+        height: 85px;
+    }
+    .home .overlay .contact-container .contact-content form button {
+        width: 25%;
+    }
+}
+@media (min-width: 415px) and (max-width: 1400px) { 
+    .home .overlay nav .links ul li  {
+        padding: 10px;
+    }
+    .home .overlay .left-side p {
+        font-size: 2.4em;
+    }
+    .home .overlay .left-side h3 {
+        font-size: 2.6em;
+        margin-top: 25px;
+    }
+    .home .overlay .left-side .btns {
+        margin-top: 90px;
+        display: flex;
+    }
+    .home .overlay .right-side .img-back {
+        height: 380px;
+        width: 380px;
+    }
+    .home .overlay .right-side .my-name-container p {
+        font-size: 1.4em;
+    }
+    .home .overlay .about-right-side .about-svg img {
+        height: 250px;
+    }
+}
+
